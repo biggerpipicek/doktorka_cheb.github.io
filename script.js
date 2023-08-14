@@ -1,4 +1,4 @@
-var imgs = ["/styles/imgs/obr1.jpg", "/styles/imgs/obr2.jpg", "/styles/imgs/obr3.jpg"];
+var imgs = ["styles/imgs/obr1.jpg", "styles/imgs/obr2.jpg", "styles/imgs/obr3.jpg"];
 var affect = document.getElementById("images");
 var currImgIndex = 0;
 
