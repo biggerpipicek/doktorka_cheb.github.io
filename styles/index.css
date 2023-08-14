@@ -1,0 +1,166 @@
+@import url('https://fonts.cdnfonts.com/css/ponjoung');
+
+* {
+    cursor: default;
+}
+
+summary {
+    cursor: pointer;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+a {
+    cursor: pointer;
+}
+
+/*MENU*/
+
+.menu {
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgb(230, 182, 182);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: /*lightblue*/ transparent;
+    background-image: url("/styles/imgs/logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 25px;
+}
+
+.links {
+    text-align: center;
+    font-family: "Ponjoung", sans-serif;
+    font-size: 35px;
+    line-height: 50px;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease-in-out;
+}
+
+.links a:visited {
+    color: black;
+}
+
+.links a:hover {
+    color: rgb(163, 70, 70);
+}
+
+/*LANDING PART*/
+.landing {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: salmon;
+}
+
+.landing-txt {
+    position: absolute;
+    left: 350px;
+    bottom: 10px;
+    z-index: 1;
+}
+
+.landing-txt h1 {
+    width: fit-content;
+    background-color: rgb(255, 217, 217);
+    font-size: clamp(25px, 45px, 55px);
+    color: rgb(163, 70, 70);
+    padding: 10px;
+}
+
+.landing-txt h1:nth-child(2) {
+    font-weight: 100;
+}
+
+/*IMAGES*/
+.container-imgs {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*
+@keyframes animate {
+    33% { background-image: url("/styles/imgs/obr1.jpg"); }
+    66% { background-image: url("/styles/imgs/obr2.jpg"); }
+    100% { background-image: url("/styles/imgs/obr3.jpg"); }
+}*/
+
+/*ADDRESS PART*/
+.address {
+    position: absolute;
+    top: 105%;
+    left: 350px;
+}
+
+.address h1 {
+    padding: 10px;
+    background-color: rgb(255, 217, 217);
+    color: rgb(163, 70, 70);
+    width: fit-content;
+}
+
+.address p#info {
+    transform: skew(-15deg);
+    padding: 10px;
+    color: rgb(163, 70, 70);
+    background-color: rgb(255, 217, 217);
+}
+
+.address > .table-time {
+    position: relative;
+    left: 25px;
+    font-size: 25px;
+}
+
+.table-time td {
+    position: relative;
+    left: 50px;
+}
+
+.address > .phys-address p {
+    position: relative;
+    width: fit-content;
+    left: 25px;
+    font-size: 25px;
+}
+
+footer {
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 25px;
+    background-color: rgb(255, 217, 217);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    bottom: -90%;
+}

@@ -1,0 +1,111 @@
+/*CONTACT PART*/
+.contact {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: salmon;
+}
+
+.contact-txt {
+    position: absolute;
+    top: 25px;
+    left: 350px;
+}
+
+.contact-txt h1 {
+    width: fit-content;
+    background-color: rgb(255, 217, 217);
+    font-size: clamp(25px, 45px, 55px);
+    color: rgb(163, 70, 70);
+    padding: 10px;
+}
+
+.phys-address {
+    position: relative;
+    width: fit-content;
+    left: 350px;
+    top: 150px;
+}
+
+.phys-address h1 {
+    width: fit-content;
+    background-color: rgb(255, 217, 217);
+    color: rgb(163, 70, 70);
+    padding: 10px;
+}
+
+.phys-address p {
+    color: black;
+    position: relative;
+    width: fit-content;
+    left: 25px;
+    font-size: 25px;
+}
+
+.frame {
+    position: absolute;
+    left: 600px;
+    top: 172px;
+}
+
+.tel {
+    position: relative;
+    width: fit-content;
+    left: 350px;
+    top: 250px;
+}
+
+.tel h1 {
+    width: fit-content;
+    background-color: rgb(255, 217, 217);
+    color: rgb(163, 70, 70);
+    padding: 10px;
+}
+
+.tel span {
+    font-size: 25px;
+}
+
+.tel span#info {
+    display: inline-block;
+    transform: skew(-15deg);
+    width: fit-content;
+    padding: 10px;
+    color: rgb(163, 70, 70);
+    background-color: rgb(255, 217, 217);
+}
+
+.email {
+    position: relative;
+    width: fit-content;
+    left: 350px;
+    top: 275px;
+}
+
+.email h1 {
+    width: fit-content;
+    background-color: rgb(255, 217, 217);
+    color: rgb(163, 70, 70);
+    padding: 10px;
+}
+
+.email p {
+    font-size: 25px;
+}
+
+
+/*FOOTER PART*/
+footer {
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 25px;
+    background-color: rgb(255, 217, 217);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    bottom: 0;
+}
