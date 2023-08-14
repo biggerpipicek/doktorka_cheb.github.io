@@ -1,7 +1,7 @@
 /*CONTACT PART*/
 .main {
     position: absolute;
-    height: 140%;
+    height: 150%;
     top: 0;
     left: 0;
     width: 100%;
@@ -82,5 +82,5 @@ footer {
     justify-content: center;
     align-items: center;
     left: 0;
-    bottom: -40%;
+    bottom: -50%;
 }
