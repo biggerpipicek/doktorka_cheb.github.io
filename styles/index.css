@@ -16,6 +16,8 @@ a {
     cursor: pointer;
 }
 
+/* PC */
+
 /*MENU*/
 
 .menu {
@@ -163,4 +165,45 @@ footer {
     align-items: center;
     left: 0;
     bottom: -90%;
+}
+
+/* MOBILE */
+@media screen and (max-width: 420px) {
+    .menu {
+        width: 100%;
+        display: none;
+    }
+
+    .links {
+        font-size: 75px;
+        line-height: 85px;
+    }
+
+    .landing {
+        width: 160%;
+        margin: auto;
+    }
+
+    .landing-txt {
+        left: 25px;
+    }
+
+    .address {
+        left: 25px;
+    }
+
+    .address h1 {
+        font-size: 2.5em;
+    }
+
+    .address p#info {
+        width: 400px;
+        font-size: 1.5em;
+    }
+
+    footer {
+        width: 160%;
+        bottom: -95%;
+        font-size: 1.25em;
+    }
 }
